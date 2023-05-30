@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="marital_status_options" />
+    <string-array name="age_options" />
+    <string-array name="year_options" />
+    <string-array name="day_options" />
+    <string-array name="month_options" />
+    <string-array name="sex_options" />
+    <string-array name="am_pm_options" />
+</resources>

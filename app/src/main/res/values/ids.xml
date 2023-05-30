@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="addressLine2EditText" type="id" />
+    <item name="addressLine1EditText" type="id" />
+    <item name="emailEditText" type="id" />
+    <item name="cityEditText" type="id" />
+    <item name="stateEditText" type="id" />
+    <item name="zipCodeEditText" type="id" />
+    <item name="maritalStatusSpinner" type="id" />
+    <item name="ageSpinner" type="id" />
+    <item name="submitButton" type="id" />
+</resources>

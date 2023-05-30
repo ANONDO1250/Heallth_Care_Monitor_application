@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+
+<style name="AppTheme.EditTextStyle" parent="Widget.AppCompat.EditText">
+    <item name="android:background">@drawable/edit_text_background</item>
+    <item name="android:padding">@dimen/edit_text_padding</item>
+    <item name="android:textColor">@color/edit_text_text_color</item>
+    <item name="android:textSize">@dimen/edit_text_text_size</item>
+</style>
+
+</resources>

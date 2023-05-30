@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="edit_text_corner_radius" />
+    <dimen name="edit_text_padding">8dp</dimen>
+    <dimen name="edit_text_corner_radius" tools:ignore="DuplicateDefinition">8dp</dimen>
+    <dimen name="edit_text_text_size">14sp</dimen>
+</resources>
