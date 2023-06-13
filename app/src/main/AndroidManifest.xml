@@ -12,6 +12,12 @@
         android:theme="@style/Theme.HeallthMonitorApp"
         tools:targetApi="31">
         <activity
+            android:name=".app_using_database"
+            android:exported="false" />
+        <activity
+            android:name=".homePAGE"
+            android:exported="false" />
+        <activity
             android:name=".Profile"
             android:exported="false" />
         <activity
