@@ -3,7 +3,6 @@ package com.example.heallthmonitorapp;
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -47,12 +46,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
         databaseHelper = new DatabaseHelper(this);
 
-        submitButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                registerUser();
-            }
-        });
+        submitButton.setOnClickListener(v -> registerUser());
     }
 
     private void registerUser() {
