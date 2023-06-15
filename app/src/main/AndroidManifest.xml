@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,6 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HeallthMonitorApp"
         tools:targetApi="31">
+        <activity
+            android:name=".HealthInformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmbulanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage_all"
+            android:exported="false" />
         <activity
             android:name=".app_using_database"
             android:exported="false" />

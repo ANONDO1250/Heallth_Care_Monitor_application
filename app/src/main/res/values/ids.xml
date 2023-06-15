@@ -9,4 +9,7 @@
     <item name="maritalStatusSpinner" type="id" />
     <item name="ageSpinner" type="id" />
     <item name="submitButton" type="id" />
+    <item name="healthInformationTextView" type="id" />
+    <item name="ambulanceImageView1" type="id" />
+    <item name="ambulanceImageView2" type="id" />
 </resources>
